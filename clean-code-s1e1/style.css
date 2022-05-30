@@ -51,7 +51,7 @@ li, .main__heading {
   list-style: none;
 }
 
-input, .main__btn {
+.main__input, .main__btn {
   outline: none;
 }
 
@@ -80,7 +80,7 @@ input, .main__btn {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.main__input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -93,7 +93,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.main__input[type="text"]:focus {
   color: #333;
 }
 
@@ -103,7 +103,7 @@ main__label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+.main__input#new-task {
   width: 318px;
 }
 
