@@ -34,7 +34,7 @@ var createNewTaskElement=function(taskString){
   label.className='main__label task';
 
   //Each elements, needs appending
-  listItem.className="main__item";
+  listItem.className="main__item"; // fix 3.4 upd.4
 
   checkBox.type="checkbox";
   editInput.type="text";
