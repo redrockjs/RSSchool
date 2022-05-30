@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.main__item, .main__heading {
+.main__item,
+.main__heading {
   list-style: none;
 }
 
-.main__input, .main__btn {
+.main__input,
+.main__btn {
   outline: none;
 }
 
@@ -72,7 +74,8 @@
 }
 
 /* Heading */
-.main__heading, .main__label[for="new-task"] {
+.main__heading,
+.main__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
