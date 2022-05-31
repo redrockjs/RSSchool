@@ -126,7 +126,7 @@
   vertical-align: middle;
 }
 
-.main__item > input[type="checkbox"] {
+.main__item > .main__input[type="checkbox"] {
   margin: 0 10px;
 }
 
@@ -137,7 +137,7 @@
   width: 226px;
 }
 
-.main__item > input[type="text"] {
+.main__item > .main__input[type="text"] {
   width: 226px;
 }
 
