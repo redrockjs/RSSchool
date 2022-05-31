@@ -37,6 +37,8 @@ var createNewTaskElement=function(taskString){
   listItem.className="main__item"; // fix 3.4 upd.4
 
   checkBox.type="checkbox";
+  checkBox.className="main__input";
+
   editInput.type="text";
   editInput.className="main__input task";
 
