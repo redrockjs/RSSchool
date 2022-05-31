@@ -151,32 +151,22 @@
   transform: rotateZ(0);
 }
 
-/*.main__btn.delete img {*/
-/*  height: 2em;*/
-/*  transform: rotateZ(45deg);*/
-/*  transition: transform 200ms ease-in;*/
-/*}*/
-
-/*.main__btn.delete img:hover {*/
-/*  transform: rotateZ(0);*/
-/*}*/
-
 /* Completed */
-.main__list#completed-tasks label {
+.main__list#completed-tasks .main__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.main__list li input[type=text] {
+.main__list .main__item .main__input[type=text] {
   display: none;
 }
 
-.main__list li.edit-mode input[type=text] {
+.main__list .main__item.edit-mode .main__input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.main__list li.edit-mode label {
+.main__list .main__item.edit-mode .main__label {
   display: none;
 }
