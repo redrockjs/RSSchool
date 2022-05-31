@@ -141,15 +141,25 @@
   width: 226px;
 }
 
-.main__btn.delete img {
+.main__delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.main__btn.delete img:hover {
+.main__delete:hover {
   transform: rotateZ(0);
 }
+
+/*.main__btn.delete img {*/
+/*  height: 2em;*/
+/*  transform: rotateZ(45deg);*/
+/*  transition: transform 200ms ease-in;*/
+/*}*/
+
+/*.main__btn.delete img:hover {*/
+/*  transform: rotateZ(0);*/
+/*}*/
 
 /* Completed */
 .main__list#completed-tasks label {
