@@ -1,0 +1,106 @@
+:root {
+    --color-key-gray: #3A424E;
+    --color-key-black: #1C232E;
+    --color-key-blue: #23738b;
+    --color-symbol-white: #FFFFFF;
+    --color-symbol-gray: #808080;
+}
+
+* {
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.title h1{
+    color: var(--color-symbol-gray);
+    margin: 0;
+}
+
+.window{
+    margin: 20px 0;
+}
+
+.window__area {
+    display: flex;
+    justify-content: center;
+}
+
+.window__textarea {
+    width: 100%;
+}
+
+.keyboard{
+    margin: 20px 0;
+}
+
+.keyboard__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+.keyboard__key {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--color-key-gray);
+    color: var(--color-symbol-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard__key:hover {
+    background-color: var(--color-key-blue);
+    color: var(--color-symbol-white);
+}
+
+.keyboard__secondkey {
+    align-self: start;
+    margin-top: 10px;
+    padding-right: 10px;
+    color: var(--color-symbol-gray)
+}
+
+.keyboard__key_colored {
+    background-color: var(--color-key-black);
+    color: var(--color-symbol-gray);
+}
+
+.keyboard__key_tab {
+    width: 65px;
+}
+
+.keyboard__key_wide {
+    width: 120px;
+}
+
+.keyboard__key_ctrl {
+    width: 80px;
+}
+
+.keyboard__key_enter {
+    width: 105px;
+}
+
+.keyboard__key_space {
+    width: 335px;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+}
+
