@@ -1,0 +1,164 @@
+:root {
+    --font-color: #555555;
+    --link-color: #555555;
+    --link-hover-color: #03a9f4;
+    --block-color: #777777;
+    --background-color: #eeeeee;
+    --background-container-color: #ffffff;
+    --accent-color: #03a9f4;
+}
+
+@media (max-width: 420px) {
+    .header, .main, .footer {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .header-avatar-block {
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-avatar-img {
+        border-radius: 50%;
+        width: 80%;
+    }
+
+    .aside-block {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 810px) {
+    .header, .main, .footer {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .header-avatar-block {
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-avatar-img {
+        border-radius: 50%;
+        width: 50%;
+
+    }
+
+    .aside-block {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 811px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .header-avatar-block {
+        background-color: var(--accent-color);
+        padding-bottom: 1em;
+        width: 300px;
+    }
+
+    .header-avatar-img {
+        width: 300px;
+    }
+
+    .aside-block {
+        padding: 10px 20px;
+        width: 300px;
+    }
+
+    .article {
+        padding: 10px 20px;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    padding: 0;
+    margin: 20px;
+    font-family: "NotoSans", sans-serif;
+    font-weight: 400;
+}
+
+header, main, footer {
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-link {
+    text-decoration-line: none;
+    color: var(--link-color)
+}
+
+.page-link:hover {
+    text-decoration-line: none;
+    color: var(--link-hover-color)
+}
+
+li {
+    line-height: 1.3;
+}
+
+hr {
+    border: var(--accent-color);
+    color: var(--accent-color);
+    background-color: var(--accent-color);
+    height: 2px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1020px;
+    margin: auto;
+    box-shadow: 0 0 5px;
+    background-color: var(--background-container-color);
+}
+
+.header {
+    display: flex;
+}
+
+.header-person-block {
+    padding: 20px;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.cv-code-example {
+    overflow: auto;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer > div {
+    flex-basis: 33%;
+    text-align: center;
+}

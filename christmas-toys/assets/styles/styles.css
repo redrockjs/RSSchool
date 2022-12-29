@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("home.css");
+@import url("toys.css");
+@import url("fir.css");
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #192F2D;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.wrapper{
+  width: 90vw;
+}

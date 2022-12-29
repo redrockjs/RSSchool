@@ -1,0 +1,290 @@
+.toys__container {
+  min-width: 100%;
+  /*min-height: calc(100vh - 140px);*/
+  background-image: url(/assets/images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.toys__container-blured {
+  /*BLURED*/
+  background: rgba(22, 41, 41, 0.5);
+  backdrop-filter: blur(3px);
+  height: 100%;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.toys {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.toys__header2 {
+  margin-top: 20px;
+}
+
+/*------------------------ controllers block -----------------------------*/
+.toys__controllers {
+  width: 33%;
+  background: rgba(22, 41, 41, 0.5);
+  height: 100%;
+  padding: 2rem;
+}
+
+.toys-controller__form {
+  display: flex;
+  align-items: center;
+}
+
+.toys-controller__form-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 10px 7px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.toys-controller__form-btn-ball {
+  background-image: url(/assets/svg/ball.svg);
+}
+
+.toys-controller__form-btn-bell {
+  background-image: url(/assets/svg/bell.svg);
+}
+
+.toys-controller__form-btn-pine-cone {
+  background-image: url(/assets/svg/cone.svg);
+}
+
+.toys-controller__form-btn-snowflake {
+  background-image: url(/assets/svg/snowflake.svg);
+}
+
+.toys-controller__form-btn-toy {
+  background-image: url(/assets/svg/toy.svg);
+}
+
+.toys-controller__color {
+  display: flex;
+  align-items: center;
+}
+
+.toys-controller__color-btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 15px 10px;
+  border: 1px solid #278D9F;
+  border-radius: 5px;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.toys-controller__color-btn-white {
+  background-color: white
+}
+
+.toys-controller__color-btn-yellow {
+  background-color: yellow
+}
+
+.toys-controller__color-btn-red {
+  background-color: red
+}
+
+.toys-controller__color-btn-blue {
+  background-color: blue
+}
+
+.toys-controller__color-btn-green {
+  background-color: green
+}
+
+.toys-controller__size {
+  display: flex;
+  align-items: center;
+}
+
+.toys-controller__size-btn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px;
+  border: 0;
+  outline: 0;
+  background-image: url(/assets/svg/ball.svg);
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.toys-controller__size-btn-x3 {
+}
+
+.toys-controller__size-btn-x2 {
+  background-size: 40px 40px;
+}
+
+.toys-controller__size-btn-x1 {
+  background-size: 32px 32px;
+}
+
+.toys-controller__favorite-container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+}
+
+.toys-controller__favorite {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+}
+
+.toys-controller__favorite-input {
+  width: initial;
+  height: initial;
+  display: none;
+}
+
+.toys-controller__favorite-label {
+  position: relative;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  backdrop-filter: blur(6px);
+  border: 1px solid #278D9F;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.toys-controller__favorite-label:hover {
+  background-color: #278D9F;
+}
+
+.toys-controller__favorite-input:checked + .toys-controller__favorite-label {
+  background-color: #278D9F;
+  border-color: #278D9F;
+}
+
+.toys-controller__favorite-input:checked + .toys-controller__favorite-label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 7px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.toys-controller__sort {
+  padding-top: 20px;
+}
+
+.toys-controller__sort-select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  width: 340px;
+  height: 40px;
+  padding: 5px 25px;
+  margin: 10px 0 25px;
+  background-color: rgba(31, 112, 127, .3);
+  background-image: url(/assets/svg/arrow-down.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 300px center;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toys-controller__sort-select option {
+  color: inherit;
+  background-color: #183E42;
+}
+
+.toys-controller__reset-btn {
+  width: 160px;
+  height: 40px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  background-color: rgba(31, 112, 127, .3);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  color: #fff;
+}
+
+.toys-controller__reset-btn:hover {
+}
+
+/*--------------------------- gallery block-------------------------------*/
+.toys__gallery-items {
+  width: 66%;
+  background: rgba(22, 41, 41, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.toys__gallery-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+}
+
+.toys__header3 {
+  font-size: 1rem;
+  align-self: center;
+}
+
+.toys_item-image {
+  width: 5rem;
+  align-self: center;
+  margin: 1rem 0;
+}
+
+.toys__item-text {
+  font-size: 0.8rem;
+}
+

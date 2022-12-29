@@ -1,0 +1,334 @@
+.fir__container {
+  min-width: 100%;
+  /*min-height: calc(100vh - 140px);*/
+  background-image: url(/assets/images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.fir__container-blured {
+  /*BLURED*/
+  background: rgba(22, 41, 41, 0.5);
+  backdrop-filter: blur(3px);
+  height: 100%;
+  min-height: 80vh;
+}
+
+.fir {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 80vh;
+}
+
+.fir__header3 {
+  font-size: 1rem;
+  align-self: start;
+  text-transform: uppercase;
+}
+
+/*************************************************************************************/
+.fir-settings__container {
+  min-width: 25vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.settings__icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.fir-settings__icons {
+  width: 48px;
+  height: 48px;
+  margin: 20px 0;
+}
+
+.trees__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tree__item {
+  width: 115px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  background-size: auto 110px;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.tree__item-1 {
+  background-image: url(/assets/images/tree/1.png);
+}
+
+.tree__item-2 {
+  background-image: url(/assets/images/tree/2.png);
+}
+
+.tree__item-3 {
+  background-image: url(/assets/images/tree/3.png);
+}
+
+.tree__item-4 {
+  background-image: url(/assets/images/tree/4.png);
+}
+
+.tree__item-5 {
+  background-image: url(/assets/images/tree/5.png);
+}
+
+.tree__item-6 {
+  background-image: url(/assets/images/tree/6.png);
+}
+
+.bg__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bg__item {
+  width: 65px;
+  height: 65px;
+  border: 1px solid #cccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.bg__item-1 {
+  background-image: url(/assets/images/bg/1.jpg);
+}
+
+.bg__item-2 {
+  background-image: url(/assets/images/bg/2.jpg);
+}
+
+.bg__item-3 {
+  background-image: url(/assets/images/bg/3.jpg);
+}
+
+.bg__item-4 {
+  background-image: url(/assets/images/bg/4.jpg);
+}
+
+.bg__item-5 {
+  background-image: url(/assets/images/bg/5.jpg);
+}
+
+.bg__item-6 {
+  background-image: url(/assets/images/bg/6.jpg);
+}
+
+.bg__item-7 {
+  background-image: url(/assets/images/bg/7.jpg);
+}
+
+.bg__item-8 {
+  background-image: url(/assets/images/bg/8.jpg);
+}
+
+.bg__item-9 {
+  background-image: url(/assets/images/bg/9.jpg);
+}
+
+.bg__item-10 {
+  background-image: url(/assets/images/bg/10.jpg);
+}
+
+.garland__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.garland__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.garland__btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.garland__btn-multi {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, #ccc 0 2px 12px;
+}
+
+.garland__btn-red {
+  background-color: #F00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
+
+.garland__btn-blue {
+  background-color: #24E0FF;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px, #3F8CFF 0 2px 14px;
+}
+
+.garland__btn-yellow {
+  background-color: #FF0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #ff0 0 2px 12px;
+}
+
+.garland__btn-green {
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+.onoffswitch {
+  position: relative;
+  width: 85px;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+.onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: "Вкл";
+  padding-left: 12px;
+  background-color: #237E8F;
+  color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+  content: "Выкл";
+  padding-right: 10px;
+  background-color: #EEEEEE;
+  color: #666;
+  text-align: right;
+}
+.onoffswitch-switch {
+  width: 26px;
+  margin: 2px;
+  background: #FFFFFF;
+  border: 2px solid #999999;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 55px;
+  transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+
+/*************************************************************************************/
+.fir-view__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(/assets/images/bg/1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  min-height: 80vh;
+  width: 100%;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.fir-toys__container {
+  min-width: 25vw;
+}
+
+.fir-toys__container{
+  margin: 10px;
+}
+
+.toys-items__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.toy__item{
+  width: 25%;
+  max-width: 100px;
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toy__item img{
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.your-trees__container{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.your-tree__item {
+  width: 115px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  background-size: auto 110px;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-tree__image{
+  max-width: 100px;
+  max-height: 100px;
+}
