@@ -1,1 +1,4 @@
-[cssMemSlider @RSS](https://redrockjs.github.io/cssMemSlider/cssMemSlider/index.html)
+# RSSchool
+
+
+Learning in 2021Q3
