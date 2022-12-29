@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -105,9 +104,4 @@ dist
 .tern-port
 
 .idea
-
-=======
-.idea
-
 node_modules
->>>>>>> virtual-keyboard/main
